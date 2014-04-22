@@ -10,7 +10,13 @@ public class Ej4_16 {
 		int mayor = 0;
 		int menor = 99999;
 		
+		//menor = Integer.MIN_VALUE;
+		//mayor = Integer.MAX_VALUE;
+		
 		Scanner entrada = new Scanner(System.in);
+		
+		// for(int=0; i < numeros.length; i++){
+		
 		while(numentrada > 0){
 			int mientrada = entrada.nextInt();
 			if(mientrada > mayor){
@@ -22,6 +28,9 @@ public class Ej4_16 {
 			tabla[numentrada-1] = mientrada;
 			numentrada--;
 		}
+		
+		//minimo = Integer.MIN_VALUE;
+		
 		texto = "tabla introducida";
 		System.out.println(texto);
 		

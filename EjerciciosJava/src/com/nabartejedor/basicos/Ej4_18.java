@@ -2,6 +2,9 @@ package com.nabartejedor.basicos;
 
 import java.util.Scanner;
 
+
+// con "abstract" se evita que se pueda instanciar una clase.   
+
 public class Ej4_18 {
 	public static void main(String[] args) {
 		int numentrada = 5;
@@ -23,8 +26,6 @@ public class Ej4_18 {
 			tablados[numsalida-1] = misalida;
 			numsalida--;
 		}
-		
-		
-		
+			
 	}
 }

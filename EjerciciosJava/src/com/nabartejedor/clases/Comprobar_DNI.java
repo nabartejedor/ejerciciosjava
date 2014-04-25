@@ -8,7 +8,7 @@ public class Comprobar_DNI {
 	  Scanner dni = new Scanner(System.in);
 	  String dni_entrada = dni.next();
 	  
-	  
+	//  System.outprintln(v.validar(dni_entrada));
 	  
 	}
 	

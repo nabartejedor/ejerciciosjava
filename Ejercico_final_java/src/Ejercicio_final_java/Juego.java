@@ -5,7 +5,7 @@ public abstract class Juego {
    private final int todas_vidas = 5;
    private static int record = 0;
    
-   public abstract void juega();
+   //public abstract void juega();
 	   
    
    

@@ -22,11 +22,11 @@ public class Ejercico_final_test {
 	
 	@Test
 	public void testEjer_final() {
-		assertEquals(5, 5, juego.muestraVidasRestantes());	
-		juego.restarVidas();	
-		assertEquals(5, 4, juego.muestraVidasRestantes());	
+		//assertEquals(5, 5, juego.muestraVidasRestantes());	
+		//juego.restarVidas();	
+		//assertEquals(5, 4, juego.muestraVidasRestantes());	
 		//juego = new Juego(5);	
-		assertEquals(5, 5, juego.muestraVidasRestantes());		
+		//assertEquals(5, 5, juego.muestraVidasRestantes());		
 	}
 	
 	@Test
@@ -44,13 +44,28 @@ public class Ejercico_final_test {
 		
 		assertTrue(numero.validaNumero(5));	
 		assertTrue(numero.validaNumero(6));
+		numero.muestraNombre();
+		numero.muestraInfo();
+		numero.juega();
 		
 		assertTrue(numero_impar.validaNumero(5));	
 		assertFalse(numero_impar.validaNumero(6));
+		numero_impar.muestraNombre();
+		numero_impar.muestraInfo();
+		numero_impar.juega();
 		
 		assertFalse(numero_par.validaNumero(5));	
 		assertTrue(numero_par.validaNumero(6));
+		numero_par.muestraNombre();
+		numero_par.muestraInfo();
+		numero_par.juega();	
 	}
+	
+	@Test
+	public void testEjer_final_entero(){
+		
+	}
+	
 	
 	
 }

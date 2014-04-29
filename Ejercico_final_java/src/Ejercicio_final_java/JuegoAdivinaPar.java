@@ -15,5 +15,17 @@ public class JuegoAdivinaPar extends JuegoAdivinaNumero{
         else{
          	 return false;
         }
-      }
+     }
+    
+    
+    @Override
+	public void muestraNombre() {
+		String texto = "adivina un numero par entre 0 y 10: ";
+		System.out.println(texto);
+	}
+    
+    public void muestraInfo() {
+    	String texto = "Tienes que adivinar un numero par entre 0 y 10. Para ello tienes 3 intentos que equivalen a 3 vidas.";
+   		System.out.println(texto);
+   	}
 }

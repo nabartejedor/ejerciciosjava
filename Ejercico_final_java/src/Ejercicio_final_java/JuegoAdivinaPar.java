@@ -6,21 +6,23 @@ public class JuegoAdivinaPar extends JuegoAdivinaNumero{
 		super(vidas, nume_adi);
 		// TODO Auto-generated constructor stub
 	}
-	
-    
+
+	@Override
     public boolean validaNumero(int nume_adi) {
         if(nume_adi % 2 == 0){	
            return true;
         }
         else{
-         	 return false;
+        	String texto = "El numero no es par. Selecciona otro.";
+    		System.out.println(texto);
+            return false;
         }
      }
     
     
     @Override
 	public void muestraNombre() {
-		String texto = "adivina un numero par entre 0 y 10: ";
+		String texto = "Juego de numero par.";
 		System.out.println(texto);
 	}
     
